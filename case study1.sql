@@ -5,8 +5,8 @@ create table oscar_nominees (
 year year,
 category varchar(50),
 nominee varchar(30),
-movie varchar(30),
-winner bool,
+movie varchar(100),
+winner varchar(30),
 id int not null,
 primary key(id)
 );
