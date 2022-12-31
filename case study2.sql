@@ -3,7 +3,7 @@ create table kag_conversion_data(
 ad_id int,
 xyz_campaign_id int,
 fb_campaign_id int,
-age int,
+age varchar(10),
 gender varchar(2),
 interest int,
 impressions int,
